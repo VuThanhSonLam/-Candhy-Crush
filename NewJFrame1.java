@@ -27,28 +27,56 @@ public class NewJFrame1 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
-        jTextArea1.setRows(5);
-        jTextArea1.setText("\n-Using mouse to moves these candies\n\n-3 same color candies in a line give you a blank,\nyou get points after getting these blanks. \n\n-You have to get enough\n");
-        jScrollPane1.setViewportView(jTextArea1);
+        jPanel1.setLayout(null);
+
+        jLabel2.setText("- Using mouse to move the candies");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(80, 50, 260, 110);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Desktop\\sEx\\candycrush-level130-cheats1.jpg")); // NOI18N
+        jPanel1.add(jLabel3);
+        jLabel3.setBounds(85, 170, 220, 350);
+
+        jLabel4.setText(" -3 same color candies in a line give you a blank, you get points after getting these blanks.  ");
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(380, 60, 550, 100);
+
+        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Desktop\\sEx\\article-0-19C4E52C000005DC-341_346x280.jpg")); // NOI18N
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(460, 170, 370, 330);
+
+        jLabel6.setText("-Getting enough points in time to win the game");
+        jPanel1.add(jLabel6);
+        jLabel6.setBounds(1000, 100, 280, 16);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Desktop\\sEx\\images (2).jpg")); // NOI18N
+        jPanel1.add(jLabel7);
+        jLabel7.setBounds(1000, 170, 340, 300);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Desktop\\sEx\\Wiki-background.jpg")); // NOI18N
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(0, -40, 1340, 730);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 609, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1340, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 588, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 689, Short.MAX_VALUE)
         );
 
         pack();
@@ -90,7 +118,13 @@ public class NewJFrame1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
